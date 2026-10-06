@@ -1,9 +1,11 @@
 #include<bits/stdc++.h>
 #include<iostream>
+#include<string>
 const double pi = 3.14;
 using namespace std;
-int main(){
-    int a[10];
+
+   /*  int a[10];
+   
     for (int &x : a){
         cin>>x;
     }
@@ -19,5 +21,16 @@ int main(){
     }
     cout<<"Tong chuoi : "<<S<<'\n';
     cout<<"Tong chan : "<<Schan;
+}*/ 
+
+int main(){
+   // string nhé .
+   int age;
+   cin>>age;
+   cin.ignore(1000, '\n');
+   string name ;
+   getline(cin,name);
+   cout<< "Toi nam nay "<< age << ' ' << "ten la "<< name;
+
 
 }
